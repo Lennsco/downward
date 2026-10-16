@@ -557,6 +557,14 @@ create_fast_downward_library(
 )
 
 create_fast_downward_library(
+    NAME pngs
+    HELP "Plan Neighborhood Graph Search (skeleton)"
+    SOURCES
+        search_algorithms/pngs
+)
+
+
+create_fast_downward_library(
     NAME enforced_hill_climbing_search
     HELP "Lazy enforced hill-climbing search"
     SOURCES
